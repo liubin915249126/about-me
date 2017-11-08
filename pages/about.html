@@ -91,6 +91,10 @@
           padding:0 20px;
           margin: 20px;
         }
+        .myexprence .item .info{
+          line-height: 2em;
+          text-indent: 15px;
+        }
         .myexprence .item .em{
           font-weight: bold;
         }
@@ -148,15 +152,39 @@
 <div class="myexprence">
   <div class="e-top clearfix">
     <span>我的技能</span>
-    <span>我的技能主要分两块：</span>
+    <span>我的技能主要分三块：</span>
   </div>
   <div class="inner item">
      <h5>工作中</h5>
      <div class="">
        <p>在工作中主要经历了<span class="em">1.唯品会人才管理 2.上汽大通组织架构 3.上期考勤手机端 4.公司人才管理v11</span></p>
        <p>技术栈主要是：<span class="em">css3,jquery,React,Redux,Saga,Es6,Webpack</span></p>
-     </div>
+       <p class="info">
+         用了一年的时间通过原生js或是jquery入了前端的大门,打下了js的基础,期间比较喜欢用css3制作动画
+         对于css3新特性比较了解.早期跟随张鑫旭学习css布局，对于前端布局里：浮动,定位,margin负值，transform
+         能够做到灵活运用。</p>
+        <p class="info">
+        从2016年10月份公司前端技术转型选择了react全家桶，从零开始用webpack搭建起了react的开发环境， 用web-devserver启动前端服务器，从而实现 前后端完全分离的开发模式.
+        </p>
+        <p class="info">
+         React只负责前端view层，对于数据控制，我们选择Redux进行数据管理,
+         Redux-saga处理异步操作，模拟数据采用的是nodejs+express提供模拟接口,我们使用fetch进行数据的获取
+         搭配上async,await可以避免回调地狱的产生。
+         在开发过程中大量使用ES6的新特性。
+       </p>
+      </div>
   </div>
+   <div class='center item'>
+    <h5>业余创作</h5>
+    <p class="info">
+       在github新建了一个仓库用于记录自己学习<span class="em">VUE全家桶</span>的过程，再有了React
+       的基础上就比较容易的上手VUE,遇到的问题，踩到的坑，也学会了怎样去找解决办法。</p>
+       
+      <p class="info">学习的过程主要包括
+       1.用webpack打包vue：vue环境的搭建,2.vue-router的使用,3.vue组件化及组件间传值,4.vuex状态管理的使用,
+       5.使用nodejs+koa2+axios模拟前后端数据通信，以及6.element-ui的使用。
+    </p>
+   </div>
    <div class='out item'>
      <h5>工作之外</h5>
      <p>在工作外为E客公司做了以<span class="em">mui为基础的app(),其中以vue为基础作数据渲染和页面交互</span></p>
